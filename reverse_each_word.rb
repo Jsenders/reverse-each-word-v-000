@@ -1,3 +1,5 @@
-def reverse_each_word
-("Hello there, and how are you?").reverse
+def reverse_each_word(phrase)
+phrase = "Hello there, and how are you?"
+phrase.reverse!
+puts phrase 
 end
